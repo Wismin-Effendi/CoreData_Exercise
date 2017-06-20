@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		379DDA641EF9B2AD00774D7D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 379DDA631EF9B2AD00774D7D /* libsqlite3.tbd */; };
 		37F3375C1EF85C1200DAD008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3375B1EF85C1200DAD008 /* AppDelegate.swift */; };
 		37F3375E1EF85C1200DAD008 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3375D1EF85C1200DAD008 /* ViewController.swift */; };
 		37F337611EF85C1200DAD008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F3375F1EF85C1200DAD008 /* Main.storyboard */; };
@@ -15,7 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37F337581EF85C1200DAD008 /* UserDefaultsExercies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserDefaultsExercies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		379DDA631EF9B2AD00774D7D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		379DDA651EF9B2C300774D7D /* SQLite_FMDB_Exercise-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLite_FMDB_Exercise-Bridging-Header.h"; sourceTree = "<group>"; };
+		37F337581EF85C1200DAD008 /* SQLite_FMDB_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLite_FMDB_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F3375B1EF85C1200DAD008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37F3375D1EF85C1200DAD008 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37F337601EF85C1200DAD008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,29 +32,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				379DDA641EF9B2AD00774D7D /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		379DDA621EF9B2AD00774D7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				379DDA631EF9B2AD00774D7D /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		37F3374F1EF85C1200DAD008 = {
 			isa = PBXGroup;
 			children = (
-				37F3375A1EF85C1200DAD008 /* UserDefaultsExercies */,
+				37F3375A1EF85C1200DAD008 /* SQLite_FMDB_Exercise */,
 				37F337591EF85C1200DAD008 /* Products */,
+				379DDA621EF9B2AD00774D7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		37F337591EF85C1200DAD008 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37F337581EF85C1200DAD008 /* UserDefaultsExercies.app */,
+				37F337581EF85C1200DAD008 /* SQLite_FMDB_Exercise.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37F3375A1EF85C1200DAD008 /* UserDefaultsExercies */ = {
+		37F3375A1EF85C1200DAD008 /* SQLite_FMDB_Exercise */ = {
 			isa = PBXGroup;
 			children = (
 				37F3375B1EF85C1200DAD008 /* AppDelegate.swift */,
@@ -60,16 +73,17 @@
 				37F337621EF85C1200DAD008 /* Assets.xcassets */,
 				37F337641EF85C1200DAD008 /* LaunchScreen.storyboard */,
 				37F337671EF85C1200DAD008 /* Info.plist */,
+				379DDA651EF9B2C300774D7D /* SQLite_FMDB_Exercise-Bridging-Header.h */,
 			);
-			path = UserDefaultsExercies;
+			path = SQLite_FMDB_Exercise;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		37F337571EF85C1200DAD008 /* UserDefaultsExercies */ = {
+		37F337571EF85C1200DAD008 /* SQLite_FMDB_Exercise */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37F3376A1EF85C1200DAD008 /* Build configuration list for PBXNativeTarget "UserDefaultsExercies" */;
+			buildConfigurationList = 37F3376A1EF85C1200DAD008 /* Build configuration list for PBXNativeTarget "SQLite_FMDB_Exercise" */;
 			buildPhases = (
 				37F337541EF85C1200DAD008 /* Sources */,
 				37F337551EF85C1200DAD008 /* Frameworks */,
@@ -79,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = UserDefaultsExercies;
+			name = SQLite_FMDB_Exercise;
 			productName = UserDefaultsExercies;
-			productReference = 37F337581EF85C1200DAD008 /* UserDefaultsExercies.app */;
+			productReference = 37F337581EF85C1200DAD008 /* SQLite_FMDB_Exercise.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,11 +111,12 @@
 					37F337571EF85C1200DAD008 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = WZFHSP6QD4;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 37F337531EF85C1200DAD008 /* Build configuration list for PBXProject "UserDefaultsExercies" */;
+			buildConfigurationList = 37F337531EF85C1200DAD008 /* Build configuration list for PBXProject "SQLite_FMDB_Exercise" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37F337571EF85C1200DAD008 /* UserDefaultsExercies */,
+				37F337571EF85C1200DAD008 /* SQLite_FMDB_Exercise */,
 			);
 		};
 /* End PBXProject section */
@@ -263,11 +278,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = WZFHSP6QD4;
-				INFOPLIST_FILE = UserDefaultsExercies/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SQLite_FMDB_Exercise/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ninja.pragprog.careerfoundry.UserDefaultsExercies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLite_FMDB_Exercise/SQLite_FMDB_Exercise-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -276,11 +294,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = WZFHSP6QD4;
-				INFOPLIST_FILE = UserDefaultsExercies/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SQLite_FMDB_Exercise/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ninja.pragprog.careerfoundry.UserDefaultsExercies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLite_FMDB_Exercise/SQLite_FMDB_Exercise-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -288,7 +308,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37F337531EF85C1200DAD008 /* Build configuration list for PBXProject "UserDefaultsExercies" */ = {
+		37F337531EF85C1200DAD008 /* Build configuration list for PBXProject "SQLite_FMDB_Exercise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37F337681EF85C1200DAD008 /* Debug */,
@@ -297,13 +317,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37F3376A1EF85C1200DAD008 /* Build configuration list for PBXNativeTarget "UserDefaultsExercies" */ = {
+		37F3376A1EF85C1200DAD008 /* Build configuration list for PBXNativeTarget "SQLite_FMDB_Exercise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37F3376B1EF85C1200DAD008 /* Debug */,
 				37F3376C1EF85C1200DAD008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
