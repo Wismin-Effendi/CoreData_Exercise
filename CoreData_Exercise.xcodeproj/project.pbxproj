@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37295A8D1EFAF0A300854C06 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37295A8B1EFAF0A300854C06 /* Person+CoreDataClass.swift */; };
+		37295A8E1EFAF0A300854C06 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37295A8C1EFAF0A300854C06 /* Person+CoreDataProperties.swift */; };
 		376C4AEB1EFA05F400A37E82 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 376C4AEA1EFA05F400A37E82 /* Default-568h@2x.png */; };
 		379DDA801EF9D10A00774D7D /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379DDA7F1EF9D10A00774D7D /* ShowViewController.swift */; };
 		37E71BF31EFA0ABE004D12BD /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37E71BF11EFA0ABE004D12BD /* Model.xcdatamodeld */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37295A8B1EFAF0A300854C06 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		37295A8C1EFAF0A300854C06 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		376C4AEA1EFA05F400A37E82 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		379DDA631EF9B2AD00774D7D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		379DDA7F1EF9D10A00774D7D /* ShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 		37F3374F1EF85C1200DAD008 = {
 			isa = PBXGroup;
 			children = (
+				37295A8B1EFAF0A300854C06 /* Person+CoreDataClass.swift */,
+				37295A8C1EFAF0A300854C06 /* Person+CoreDataProperties.swift */,
 				376C4AEA1EFA05F400A37E82 /* Default-568h@2x.png */,
 				37F3375A1EF85C1200DAD008 /* CoreData_Exercise */,
 				37F337591EF85C1200DAD008 /* Products */,
@@ -160,6 +166,8 @@
 			files = (
 				37F3375E1EF85C1200DAD008 /* ViewController.swift in Sources */,
 				379DDA801EF9D10A00774D7D /* ShowViewController.swift in Sources */,
+				37295A8E1EFAF0A300854C06 /* Person+CoreDataProperties.swift in Sources */,
+				37295A8D1EFAF0A300854C06 /* Person+CoreDataClass.swift in Sources */,
 				37F3375C1EF85C1200DAD008 /* AppDelegate.swift in Sources */,
 				37E71BF31EFA0ABE004D12BD /* Model.xcdatamodeld in Sources */,
 			);
